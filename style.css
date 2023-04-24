@@ -1,0 +1,322 @@
+/*IMPORTE UNA LIBRERRIA DE GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap')
+
+
+
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(0deg, #8609050f, #646ef736);
+    color: #21059b;
+    font-family: 'Glory', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+}
+
+#izq{
+    background: linear-gradient(348deg, #5a9ef8bb, transparent);
+    width: 330px;
+}
+
+#foto{
+    z-index: 1;
+    position: static;
+    width: 200px;
+    margin-top: 20px;
+    align-items: center;
+
+
+}
+
+#uno{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.uno-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    justify-content: center;
+    color: #2a06a1;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 16px;
+}
+
+i{
+    color: rgba(0, 0, 0, 0.521);
+    margin: 12px;
+    font-size: 12px;
+}
+
+i:hover{
+    color: rgb(9, 182, 38);
+    margin: 10px;
+    cursor: pointer;
+}
+
+.dos{
+    width: 238px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+
+.Habilidad:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.detalle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid rgb(218, 7, 7);
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(223, 77, 77);
+}
+
+#PrimerBarra{
+    animation: una-bar 5s forwards;
+}
+
+@keyframes una-bar{
+    100%{
+        width: 80%;
+    }
+}
+
+#Segundabarra{
+    animation: dos-bar 2s forwards;
+}
+
+@keyframes dos-bar{
+    100%{
+        width: 95%;
+    }
+}
+
+#Tercerabarra{
+    animation: tres-bar 2s forwards;
+}
+
+@keyframes tres-bar{
+    100%{
+        width: 97%;
+    }
+}
+
+#Cuartabarra{
+    animation: cuatro-bar 2s forwards;
+}
+
+@keyframes cuatro-bar{
+    100%{
+        width: 95%;
+    }
+}
+
+#QuintaBarra{
+    animation: cinco-barra 6s forwards;
+}
+
+@keyframes cinco-barra{
+    100%{
+        width: 92%;
+    }
+}
+
+#SextaBarra{
+    animation: seis-barra 12s forwards;
+}
+
+@keyframes seis-barra{
+    100%{
+        width: 92%;
+    }
+}
+
+
+
+
+#html-mu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#css-mu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#js-mu{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 40%;
+    }
+}
+
+#in-mu{
+    animation: in-barra 2s forwards;
+}
+
+@keyframes in-barra{
+    100%{
+        width: 30%;
+    }
+}
+
+#der{
+    width: 625px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+h2{
+    color: #1e1d22;
+    font-size: 32px;
+    margin-left: 140px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4{
+    border-radius: 11px;
+    background-color: #2a078b73;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+.educa{
+    display: flex;
+    margin-top: 10px;
+}
+
+#Prog{
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+#af{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+#tec{
+    margin-left: 120px;
+    margin-top: 5px;
+}
+
+#col{
+    margin-left: 170px;
+    margin-top: 5px;
+}
+
+#experiencia{
+    display: flex;
+}
+
+#exp-v{
+    width: 2200px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+h6{
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px){
+    section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #izq{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+@media (max-width:500px) {
+    #izq{
+        margin-left: 144px;
+        background: linear-gradient(348deg, transparent, #b18bd521);
+    } 
+
+    .dos{
+        margin-left: 40px;
+    }
+
+    #der{
+        width: 430px;
+        margin-left: 140px;
+        margin-top: 35px;
+    }
+
+    #af{
+        margin-left: 111px;
+    }
+
+    #tec{
+        margin-left: 136px;
+    }
+
+    #exp-v{
+        margin-left: 10px;
+    }
+}
+
